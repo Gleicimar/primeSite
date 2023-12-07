@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.center{
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+ul,a{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background:linear-gradient(to right ,rgb(48, 105, 5),rgb(223, 167, 192),rgb(14, 122, 255));
+   
+}
+header >.center{
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
+#menu li{
+    padding: 10px;
+    font-size: 25px;
+}
+#menu a{
+    color: white;
+    font-weight: 300;
+
+}
+#menu li:hover{
+    background-color: rgba(0, 0, 255, 0.459);
+}
+
+.banner{
+    background: linear-gradient(to right,rgba(200,150,100),rgba(150,200,25),rgba(35,100,250));
+    height: 80vh;
+}
+.banner >.center{
+    flex-wrap: wrap;
+    place-items: center;
+    justify-content: center;
+}
+
+.banner h2{
+    display: ;
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    left:20% ;
+    color: white;
+    font-size: 4.5rem;
+}
+.banner a{
+    cursor: pointer;
+    background: linear-gradient(rgba(65, 241, 241),rgb(115, 241, 65));
+    position: absolute;
+    top: 50%;
+    border-bottom: 3px solid black;
+    outline: none;
+    color: white;
+    margin: 15px;
+    border-radius: 12px;
+    left:20% ;
+    font-size: 27px;
+    padding: 12px;
+}
